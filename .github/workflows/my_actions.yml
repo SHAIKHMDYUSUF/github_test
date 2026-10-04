@@ -5,8 +5,7 @@ jobs:
         runs-on : ubuntu latest
         steps:
             - name: first-step
-              run : echo "hello world"
-            - name: second-step
-              run: echo "this is the second step2"
-
+              run : |
+                echo "hello world"
+                echo "second"
 
